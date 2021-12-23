@@ -1,0 +1,9 @@
+body {
+    background-color: rgb(0, 33, 44);
+}
+
+h1{
+    background-color: rgb(155, 233, 247);
+    border: solid 1px black;
+    padding: 15px;
+}
