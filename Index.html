@@ -1,36 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>il mio sito</title>
+    <title>il mio curriculum</title>
+    <link rel="stylesheet" n href="style.css" ;>
 
-
-    <link rel="stylesheet"n href="style.css";>
-
+    <style>
+        table td,
+        table th {
+            border: 1px solid;
+            padding: 12px;
+        }
+    </style>
 </head>
+
 <body>
-    <div style ="
-        background-color: coral;
-        padding: 60px;
-        ">
-        <div style ="
-            background-color: cadetblue;
-            padding: 60px;
-            margin-bottom: 30px;
-            ">
-            <h1>Questo è il titolo</h1>
-        </div>
-        <div style ="
-        background-color: rgb(255, 87, 165);
-        padding: 60px;
-        ">
-            <p>
-                ciao sono pippo
-            </p>
-        </div>
+    <div>
+        <img src="image.jpg" width=150px alt="Foto profilo">
+        <h1 align=center>Curriculum</h1>
     </div>
-    
+    <div style="
+     background-color: rgb(77, 150, 184);
+     padding: 30px;
+     ">
+        <h3>Dati anagrafici:</h3>
+        <p><strong>Nome : Erik</strong></p>
+        <p><strong>Cognome : Fullone</strong></p>
+        <p><strong>Luogo di nascita : Torino</strong></p>
+        <p><strong>Data di nascita : 17/07/1991</strong></p>
+    </div>
+    <hr>
+    <div style="
+    background-color: aquamarine;
+    padding: 30px;
+    ">
+        <h3>Esperienze lavorative:</h3>
+        <ul>
+            <li>V.R.T.</li>
+            <li>Perardi & Gresino</li>
+
+        </ul>
+        <p>&#128512</p>
+        </p>
+    </div>
+    <hr>
+    <div style="
+    background-color: brown;
+    padding: 30px;
+    ">
+        <strong>
+            <h3>Lingue parlate</h3>
+            <ol>
+                <li>inglese</li>
+                <ul>
+                    <li>parlato: 6</li>
+                    <li>scritto: 6</li>
+                </ul>
+                </li>
+                <li>italiano</li>
+                <ul>
+                    <li>parlato: 10</li>
+                    <li>scritto: 10</li>
+                </ul>
+            </ol>
+        </strong>
+    </div>
+    <hr>
+    <div style="
+    background-color: blueviolet;
+    padding: 30px;
+    ">
+        <strong>
+            <h3>Diplomi conseguiti</h3>
+            <ol>
+                <li>Perito informatico</li>
+                <li>Qualifica professionale</li>
+                <li>Attestato specializzazione</li>
+            </ol>
+        </strong>
+    </div>
+    <hr>
+    <div style="
+    background-color: rgb(9, 255, 0);
+    padding: 30px;
+    ">
+        <h3>Voti esami</h3>
+        <table>
+            <colgroup>
+                <col style="background-color: brown;">
+                <col>
+                <col>
+                <col>
+            </colgroup>
+            <tr>
+                <th>Materia</th>
+                <th>Voto1</th>
+                <th>Voto2</th>
+                <th>Voto3</th>
+                <th>Voto4</th>
+            </tr>
+            <tr>
+                <td>Italiano</td>
+                <td>6</td>
+                <td>7</td>
+            </tr>
+
+            <tr>
+                <td>Matematica</td>
+                <td>8</td>
+                <td>7</td>
+            </tr>
+
+            <tr>
+                <td>Inglese</td>
+                <td>7</td>
+                <td>8</td>
+                <td>6</td>
+            </tr>
+
+            <tr>
+                <td>Informatica</td>
+                <td>8</td>
+            </tr>
+        </table>
+    </div>
+    <h3>Lettera di referenza</h3>
+    <p>
+        <a target="_blank" href="letteraReferenza.html">lettera di referenza</a>
+    </p>
 </body>
-</html>  
+
+</html>
